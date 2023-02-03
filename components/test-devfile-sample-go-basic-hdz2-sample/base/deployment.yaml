@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-devfile-sample-go-basic-hdz2-sample
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:bholifie-tenant-test-devfile-sample-go-basic-hdz2-sample
+      - image: quay.io/redhat-appstudio/user-workload@sha256:3724c73ca2a1efde0f01243cd0293e1581b0f38cdd257901b8dcb3f01daaaa2d
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
